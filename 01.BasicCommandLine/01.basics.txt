@@ -1,0 +1,36 @@
+
+	mv: rename files
+		- mv filename_old filename_new
+	mv: move files to another directory
+		- mv filename1 filename2 directory_target
+	mv: rename folders
+		- mv old-name new-name
+	rm:
+		- delete files: rm <filename>
+		- delete files y directories: rm -r <directoryname>
+	ls: 
+		View the contents of a directory. By default, this command will display the contents of your current working directory.
+		ls -a: will show the hidden files
+		ls -al: will list the files and directories with detailed information like the permissions, size, owner, etc.
+	touch <filename>
+		- Create a new file
+	touch <filename>{1..10}.<ext-file>
+		- Be create ten files with ending
+		- 10 files will be created
+			- e.g., filename1.txt, filename2.txt, ..., filename10.txt
+		
+	cp:
+		Use the cp command to copy files from the current directory to a different directory. For instance, 
+		the command cp scenery.jpg /home/username/Pictures would create a copy of scenery.jpg (from your current directory) into the Pictures directory.	
+	
+	cp: [copying all files from one directory to another]
+		- cp -a /source/. /dest/
+		- Example when the two directories are in the same path
+			- cp -a subdags/. groups/
+	
+	Go to source directory (exist 2 ways): 
+		1. cd /home
+		2. cd ~/
+		
+	mkdir: create a new directory
+		- mkdir <new_directory>
